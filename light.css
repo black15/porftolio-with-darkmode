@@ -1,0 +1,51 @@
+body{
+	background-color:#F8F8F8!important;
+}
+
+div i {
+        cursor: pointer;
+        font-size: x-large;
+        color: #002633;
+}
+
+#profile-wrapper{
+	text-align: center;
+}
+
+#profile-pic{
+	width:150px;
+	height: 150px;
+	border-radius: 50%;
+	margin-left: auto;
+  	margin-right: auto;
+}
+
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+
+
+.social-links ul, li{
+	list-style-type:none;
+	display: inline-block;
+}
+
+.social{
+	width:20px;
+	height: 20px;
+}
+
+img#theme-mode.active {
+	filter: invert(0);
+}
+
+@media screen and (max-width: 992px) {
+	#profile-pic{
+		width:100px;
+		height: 100px;
+		border-radius: 50%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
