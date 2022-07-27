@@ -13,12 +13,10 @@ function switch_theme() {
         // }
 
         if (mode.href.includes('dark.css')){
-                mode.href = setTheme
-                localStorage.setItem('theme', 'light.css')
+                mode.href = 'light.css'
         }
         else {
-                mode.href = setTheme
-                localStorage.setItem('theme', 'light.css')
+                mode.href = 'dark.css'
         }
         
 }
